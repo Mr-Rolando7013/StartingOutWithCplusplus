@@ -5,3 +5,17 @@ and when driven on the highway.
 
 Hint: The following formula can be used to calculate distance:
 Distance = Number of gallons x Average Miles per gallon*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float milePerGallonInTown = 21.5, gasTank = 20, milePerGallonInHighway = 26.8;
+
+    cout << "Distance in town: " << milePerGallonInTown * gasTank << "\n";
+    cout << "Distance in highway: " << milePerGallonInHighway * gasTank << "\n";
+
+    return 0;
+}

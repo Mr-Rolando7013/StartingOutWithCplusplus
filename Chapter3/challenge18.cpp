@@ -1,5 +1,5 @@
-/*Joe's Pizza Palace needs a program to calculate the number of slices 
-a pizza of any size can be divided into. THe program should perform 
+/*Joe's Pizza Palace needs a program to calculate the number of slices
+a pizza of any size can be divided into. THe program should perform
 the follwing steps:
 A) Ask the user for the diameter of the pizza in inches.
 B) Calculate the number of slices that may be taken from a pizza of that size.
@@ -13,3 +13,14 @@ the following facts:
 Area = pi * r ^ 2
 
 */
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+    return 0;
+}

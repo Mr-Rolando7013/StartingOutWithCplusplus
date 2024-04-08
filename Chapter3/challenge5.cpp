@@ -11,3 +11,30 @@ Gross box office profit: $2673.00
 Net box office profit: $534.60
 Amount paid to distributor: $2138.40
 Note: Assume the theater keeps 20 percent of the gross box office profit.*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float priceAdultTicket = 6.00, priceOfChildTicket = 3.00, totalMoney = 0, amountPaidToDistributor = 0;
+    string movieName;
+    int numberOfAdultTickets = 0, numberOfChildTickets;
+
+    cout << "Movie name: ";
+    cin >> movieName;
+    cout << "Adult tickets sold: ";
+    cin >> numberOfAdultTickets;
+    cout << "Child tickets sold: ";
+    cin >> numberOfChildTickets;
+
+    totalMoney = (numberOfAdultTickets * priceAdultTicket) + (numberOfChildTickets * priceOfChildTicket);
+    amountPaidToDistributor = totalMoney * .2;
+    cout << "Gross box office profit: " << totalMoney << "\n";
+    cout << "Ammount paid to distributor: " << amountPaidToDistributor << "\n";
+
+
+
+    return 0;
+}
